@@ -7,7 +7,7 @@ async function main() {
     console.log(`Deploying contracts with the account: ${deployer.address}`);
 
     const Calculator = await hre.ethers.getContractFactory("Calculator");
-    const calculator = await Calculator.deploy(5,2);
+    const calculator = await Calculator.deploy();
 
     await calculator.deployed();
 
