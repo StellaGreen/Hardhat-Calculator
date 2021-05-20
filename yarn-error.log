@@ -1,0 +1,31 @@
+Arguments: 
+  /home/stella/.nvm/versions/node/v15.10.0/bin/node /home/stella/.nvm/versions/node/v15.10.0/bin/yarn add hardhat --dev
+
+PATH: 
+  /home/stella/.nvm/versions/node/v15.10.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOSPC: no space left on device, copyfile '/home/stella/.cache/yarn/v6/npm-@solidity-parser-parser-0.11.1-fa840af64840c930f24a9c82c08d4a092a068add-integrity/node_modules/@solidity-parser/parser/dist/index.cjs.js.map' -> '/home/stella/Bureau/blockchain-courses/Hardhat-Calculator/node_modules/@solidity-parser/parser/dist/index.cjs.js.map'
+
+npm manifest: 
+  {
+    "name": "Hardhat-Calculator",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
